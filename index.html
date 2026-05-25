@@ -3,8 +3,8 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="The Nook Cafe — cozy coffee, fresh pastries, and homestyle brunch in your neighborhood.">
-  <title>The Nook Cafe | Coffee & Brunch</title>
+  <meta name="description" content="The Nook — A tasteful corner. Tasty Trails Cafe, Kanpur. Pure veg momos, burgers, pizza, pasta, rolls, shakes & combos.">
+  <title>The Nook | Tasty Trails Cafe — Kanpur</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,600;0,700;1,400&family=Outfit:wght@300;400;500;600&display=swap" rel="stylesheet">
@@ -13,7 +13,14 @@
 <body>
   <header class="site-header" id="top">
     <nav class="nav" aria-label="Main navigation">
-      <a href="#top" class="logo">The Nook <span>Cafe</span></a>
+      <a href="#top" class="logo">
+        <img src="images/TheNookLogo.png" alt="" class="logo-img" width="64" height="64">
+        <span class="logo-text">
+          <span class="logo-tag">A tasteful corner</span>
+          <span class="logo-main">The Nook</span>
+          <span class="logo-sub">Tasty Trails Cafe · Kanpur</span>
+        </span>
+      </a>
       <button class="nav-toggle" aria-label="Open menu" aria-expanded="false">
         <span></span><span></span><span></span>
       </button>
@@ -22,21 +29,21 @@
         <li><a href="#menu">Menu</a></li>
         <li><a href="#gallery">Gallery</a></li>
         <li><a href="#hours">Hours</a></li>
-        <li><a href="#contact" class="nav-cta">Reserve</a></li>
+        <li><a href="#contact" class="nav-cta">Book Party</a></li>
       </ul>
     </nav>
   </header>
 
   <main>
     <section class="hero">
-      <div class="hero-bg" role="img" aria-label="Warm cafe interior with coffee and pastries"></div>
+      <div class="hero-bg" role="img" aria-label="Veg burger, sandwiches, fries and mojitos at The Nook, Kanpur"></div>
       <div class="hero-content">
-        <p class="hero-tag">Your neighborhood corner</p>
-        <h1>The Nook Cafe</h1>
-        <p class="hero-lead">Slow mornings, bold espresso, and plates made with care. Pull up a chair — you're home here.</p>
+        <p class="hero-tag">A tasteful corner · Tasty Trails Cafe</p>
+        <h1>The Nook</h1>
+        <p class="hero-lead">Pure veg indulgence in Kanpur. Good food · Good mood · Good vibes — momos, burgers, pizza & more.</p>
         <div class="hero-actions">
           <a href="#menu" class="btn btn-primary">View Menu</a>
-          <a href="#contact" class="btn btn-outline">Book a Table</a>
+          <a href="tel:+919682414350" class="btn btn-outline">Call 9682414350</a>
         </div>
       </div>
       <div class="hero-scroll">
@@ -48,29 +55,40 @@
     <section class="about" id="about">
       <div class="container about-grid">
         <div class="about-image">
-          <div class="about-img-frame" role="img" aria-label="Barista pouring latte art"></div>
+          <div class="about-img-frame">
+            <div class="about-slideshow" aria-label="The Nook food — burgers, fries, sandwiches and combos">
+              <img src="images/TheNook1.png" alt="Veg burger, sandwiches, fries and mojitos at The Nook" class="about-slide is-active" width="800" height="1000">
+              <img src="images/TheNook2.png" alt="Golden french fries with sauces at The Nook" class="about-slide" width="800" height="1000" loading="lazy">
+              <img src="images/theNook3.png" alt="Club sandwich, fries and Coke at The Nook" class="about-slide" width="800" height="1000" loading="lazy">
+            </div>
+            <div class="about-dots" aria-hidden="true">
+              <span class="about-dot is-active"></span>
+              <span class="about-dot"></span>
+              <span class="about-dot"></span>
+            </div>
+          </div>
           <div class="about-badge">
-            <span class="badge-num">7+</span>
-            <span class="badge-text">Years brewing community</span>
+            <span class="badge-num">100%</span>
+            <span class="badge-text">Pure vegetarian</span>
           </div>
         </div>
         <div class="about-text">
-          <span class="section-label">Our Story</span>
-          <h2>A little corner built for lingering</h2>
-          <p>The Nook started as a dream: a place where the coffee is never rushed and every regular has a name. We roast in small batches, bake before dawn, and keep the playlist soft enough for conversation.</p>
-          <p>Whether you're here for a quick flat white or a lazy Sunday brunch with friends, we saved you the best seat by the window.</p>
+          <span class="section-label">Our Promise</span>
+          <h2>Sukoon ka asli address</h2>
+          <p>The Nook is your pure-veg corner in Ratan Lal Nagar — steam momos, kurkure crunch, loaded rolls, burgers, pizza, pasta, and chilled shakes. Every plate is made fresh, with care.</p>
+          <p>Book us for birthday & kitty parties. Walk in for a quick bite or settle in with friends — we hope to serve you again soon.</p>
           <ul class="about-features">
             <li>
-              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M12 3v3m0 12v3M3 12h3m12 0h3M5.6 5.6l2.1 2.1m8.6 8.6l2.1 2.1M5.6 18.4l2.1-2.1m8.6-8.6l2.1-2.1"/></svg>
-              Single-origin & house blends
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg>
+              Only freshness, no compromise
             </li>
             <li>
-              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M4 19h16M6 16l2-7h8l2 7M9 9V6a3 3 0 116 0v3"/></svg>
-              All-day brunch & pastries
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M18.364 18.364A9 9 0 005.636 5.636m12.728 12.728A9 9 0 015.636 5.636m12.728 12.728L5.636 5.636"/></svg>
+              No preservatives · Never frozen
             </li>
             <li>
-              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M12 21s-6-4.35-6-10a6 6 0 1112 0c0 5.65-6 10-6 10z"/><circle cx="12" cy="11" r="2"/></svg>
-              Locally sourced ingredients
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z"/></svg>
+              Made with care
             </li>
           </ul>
         </div>
@@ -80,101 +98,237 @@
     <section class="menu" id="menu">
       <div class="container">
         <div class="section-header">
-          <span class="section-label">What we serve</span>
-          <h2>Menu highlights</h2>
-          <p>Seasonal specials rotate weekly. Ask your server about today's pastry case.</p>
+          <span class="section-label">Pure Veg Menu</span>
+          <h2>What we serve</h2>
+          <p class="menu-intro">
+            <span>Prices in ₹.</span>
+            <span>Momos: Half (5 pcs) / Full (10 pcs).</span>
+            <span>Quick bites: Regular / Medium / Large.</span>
+          </p>
         </div>
 
         <div class="menu-tabs" role="tablist">
-          <button class="menu-tab active" role="tab" aria-selected="true" data-tab="coffee">Coffee</button>
-          <button class="menu-tab" role="tab" aria-selected="false" data-tab="brunch">Brunch</button>
-          <button class="menu-tab" role="tab" aria-selected="false" data-tab="pastries">Pastries</button>
+          <button class="menu-tab active" role="tab" aria-selected="true" data-tab="momos">Momos</button>
+          <button class="menu-tab" role="tab" aria-selected="false" data-tab="bites">Quick Bites</button>
+          <button class="menu-tab" role="tab" aria-selected="false" data-tab="sandwiches">Sandwiches</button>
+          <button class="menu-tab" role="tab" aria-selected="false" data-tab="burgers">Burgers</button>
+          <button class="menu-tab" role="tab" aria-selected="false" data-tab="pasta-pizza">Pasta & Pizza</button>
+          <button class="menu-tab" role="tab" aria-selected="false" data-tab="rolls">Rolls</button>
+          <button class="menu-tab" role="tab" aria-selected="false" data-tab="beverages">Beverages</button>
+          <button class="menu-tab" role="tab" aria-selected="false" data-tab="combos">Combos</button>
         </div>
 
         <div class="menu-panels">
-          <div class="menu-panel active" id="coffee" role="tabpanel">
+          <div class="menu-panel active" id="momos" role="tabpanel">
+            <p class="menu-category-note">Half (5 pcs) / Full (10 pcs)</p>
+            <h3 class="menu-category-title">Veg Momos</h3>
             <div class="menu-grid">
               <article class="menu-item">
-                <div class="menu-item-head"><h3>Nook House Blend</h3><span class="price">$4.50</span></div>
-                <p>Chocolate notes, smooth finish. Drip or pour-over.</p>
+                <div class="menu-item-head"><h3>Nook Special Steam Momos</h3><span class="price">₹35 / ₹60</span></div>
               </article>
               <article class="menu-item">
-                <div class="menu-item-head"><h3>Flat White</h3><span class="price">$5.25</span></div>
-                <p>Double ristretto, microfoam milk.</p>
+                <div class="menu-item-head"><h3>Steam Momos</h3><span class="price">₹30 / ₹55</span></div>
               </article>
               <article class="menu-item">
-                <div class="menu-item-head"><h3>Cortado</h3><span class="price">$4.75</span></div>
-                <p>Equal parts espresso and steamed milk.</p>
+                <div class="menu-item-head"><h3>Tandoori Malai Momos</h3><span class="price">₹59 / ₹110</span></div>
               </article>
               <article class="menu-item">
-                <div class="menu-item-head"><h3>Maple Oat Latte</h3><span class="price">$6.00</span></div>
-                <p>House syrup, oat milk, cinnamon dust.</p>
+                <div class="menu-item-head"><h3>Fried Momos</h3><span class="price">₹30 / ₹55</span></div>
               </article>
               <article class="menu-item">
-                <div class="menu-item-head"><h3>Cold Brew</h3><span class="price">$5.50</span></div>
-                <p>18-hour steep. Bright and clean.</p>
+                <div class="menu-item-head"><h3>Kurkure Momos</h3><span class="price">₹45 / ₹85</span></div>
               </article>
               <article class="menu-item">
-                <div class="menu-item-head"><h3>Chai Spiced Latte</h3><span class="price">$5.75</span></div>
-                <p>Loose-leaf chai, honey, your choice of milk.</p>
+                <div class="menu-item-head"><h3>Szechuan Blaze Momos</h3><span class="price">₹59 / ₹110</span></div>
+                <p>Gravy / sezwan style.</p>
+              </article>
+            </div>
+            <h3 class="menu-category-title">Paneer Momos</h3>
+            <div class="menu-grid">
+              <article class="menu-item">
+                <div class="menu-item-head"><h3>Nook Special Paneer Steam Momos</h3><span class="price">₹45 / ₹85</span></div>
+              </article>
+              <article class="menu-item">
+                <div class="menu-item-head"><h3>Paneer Steam Momos</h3><span class="price">₹39 / ₹75</span></div>
+              </article>
+              <article class="menu-item">
+                <div class="menu-item-head"><h3>Paneer Tandoori Malai Momos</h3><span class="price">₹69 / ₹130</span></div>
+              </article>
+              <article class="menu-item">
+                <div class="menu-item-head"><h3>Paneer Fried Momos</h3><span class="price">₹39 / ₹75</span></div>
+              </article>
+              <article class="menu-item">
+                <div class="menu-item-head"><h3>Paneer Kurkure Momos</h3><span class="price">₹55 / ₹99</span></div>
+              </article>
+              <article class="menu-item">
+                <div class="menu-item-head"><h3>Paneer Gravy Momos</h3><span class="price">₹69 / ₹119</span></div>
+              </article>
+            </div>
+            <article class="menu-item menu-item--featured">
+              <div class="menu-item-head"><h3>Momo Platter</h3><span class="price">₹99</span></div>
+              <p>12 delicious momos — 2 pcs each of Nook Special, Fried & Kurkure. Veg & paneer variants included.</p>
+            </article>
+          </div>
+
+          <div class="menu-panel" id="bites" role="tabpanel" hidden>
+            <p class="menu-category-note">Regular / Medium / Large</p>
+            <div class="menu-grid">
+              <article class="menu-item">
+                <div class="menu-item-head"><h3>Golden French Fries</h3><span class="price">₹35 / ₹69 / ₹79</span></div>
+              </article>
+              <article class="menu-item">
+                <div class="menu-item-head"><h3>Peri Peri French Fries</h3><span class="price">₹40 / ₹79 / ₹89</span></div>
+              </article>
+              <article class="menu-item">
+                <div class="menu-item-head"><h3>Cheese French Fries</h3><span class="price">₹49 / ₹89 / ₹99</span></div>
+              </article>
+              <article class="menu-item">
+                <div class="menu-item-head"><h3>Peri Peri Cheese French Fries</h3><span class="price">₹55 / ₹79 / ₹109</span></div>
+              </article>
+              <article class="menu-item">
+                <div class="menu-item-head"><h3>Chili Potato</h3><span class="price">₹59 / ₹79 / ₹99</span></div>
+              </article>
+              <article class="menu-item">
+                <div class="menu-item-head"><h3>Honey Chili Potato</h3><span class="price">₹69 / ₹89 / ₹109</span></div>
               </article>
             </div>
           </div>
 
-          <div class="menu-panel" id="brunch" role="tabpanel" hidden>
+          <div class="menu-panel" id="sandwiches" role="tabpanel" hidden>
             <div class="menu-grid">
               <article class="menu-item">
-                <div class="menu-item-head"><h3>Nook Benedict</h3><span class="price">$16</span></div>
-                <p>Poached eggs, smoked salmon, dill hollandaise, sourdough.</p>
+                <div class="menu-item-head"><h3>Classic Bombay Grilled Sandwich</h3><span class="price">₹69</span></div>
+                <p>Spicy, buttery Bombay style with veg patty, tomatoes, onions & mayo.</p>
               </article>
               <article class="menu-item">
-                <div class="menu-item-head"><h3>Avocado Toast</h3><span class="price">$13</span></div>
-                <p>Everything spice, pickled onion, soft egg (+$3).</p>
+                <div class="menu-item-head"><h3>Classic Veg Cheese Sandwich</h3><span class="price">₹69</span></div>
+                <p>Fresh veggies, melted cheese, mild spices — simple & comforting.</p>
               </article>
               <article class="menu-item">
-                <div class="menu-item-head"><h3>Granola Bowl</h3><span class="price">$12</span></div>
-                <p>Greek yogurt, seasonal fruit, wildflower honey.</p>
+                <div class="menu-item-head"><h3>Corn & Cheese Grilled Sandwich</h3><span class="price">₹79</span></div>
+                <p>Creamy corn & cheese, crispy outside, cheesy inside.</p>
               </article>
               <article class="menu-item">
-                <div class="menu-item-head"><h3>Breakfast Burrito</h3><span class="price">$14</span></div>
-                <p>Scrambled eggs, cheddar, salsa verde, hash browns.</p>
-              </article>
-              <article class="menu-item">
-                <div class="menu-item-head"><h3>Shakshuka</h3><span class="price">$15</span></div>
-                <p>Slow-cooked tomatoes, feta, herbs, grilled bread.</p>
-              </article>
-              <article class="menu-item">
-                <div class="menu-item-head"><h3>Seasonal Soup</h3><span class="price">$9</span></div>
-                <p>Ask server. Served with house bread.</p>
+                <div class="menu-item-head"><h3>Tandoori Paneer Tikka Sandwich</h3><span class="price">₹89</span></div>
+                <p>Smoky tandoori paneer with onions, capsicum & butter.</p>
               </article>
             </div>
           </div>
 
-          <div class="menu-panel" id="pastries" role="tabpanel" hidden>
+          <div class="menu-panel" id="burgers" role="tabpanel" hidden>
             <div class="menu-grid">
               <article class="menu-item">
-                <div class="menu-item-head"><h3>Almond Croissant</h3><span class="price">$5.50</span></div>
-                <p>Twice-baked, frangipane filling.</p>
+                <div class="menu-item-head"><h3>Veg Aloo Tikki Burger</h3><span class="price">₹49</span></div>
               </article>
               <article class="menu-item">
-                <div class="menu-item-head"><h3>Blueberry Scone</h3><span class="price">$4.25</span></div>
-                <p>Lemon glaze. Baked every morning.</p>
+                <div class="menu-item-head"><h3>Herby Garden Veggies Burger</h3><span class="price">₹59</span></div>
               </article>
               <article class="menu-item">
-                <div class="menu-item-head"><h3>Banana Bread</h3><span class="price">$4.00</span></div>
-                <p>Walnut crumble, served warm.</p>
+                <div class="menu-item-head"><h3>Paneer Makhani Supreme Burger</h3><span class="price">₹79</span></div>
+              </article>
+            </div>
+            <p class="menu-addon">Add extra cheese slice @ ₹15</p>
+          </div>
+
+          <div class="menu-panel" id="pasta-pizza" role="tabpanel" hidden>
+            <h3 class="menu-category-title">Pasta</h3>
+            <div class="menu-grid">
+              <article class="menu-item">
+                <div class="menu-item-head"><h3>White Sauce Pasta</h3><span class="price">₹129</span></div>
               </article>
               <article class="menu-item">
-                <div class="menu-item-head"><h3>Chocolate Chip Cookie</h3><span class="price">$3.50</span></div>
-                <p>Sea salt, brown butter dough.</p>
+                <div class="menu-item-head"><h3>Red Sauce Pasta</h3><span class="price">₹129</span></div>
               </article>
               <article class="menu-item">
-                <div class="menu-item-head"><h3>Seasonal Tart</h3><span class="price">$6.50</span></div>
-                <p>Rotating fruit from local farms.</p>
+                <div class="menu-item-head"><h3>Pink Sauce Pasta</h3><span class="price">₹129</span></div>
+              </article>
+            </div>
+            <h3 class="menu-category-title">Pizza</h3>
+            <div class="menu-grid">
+              <article class="menu-item">
+                <div class="menu-item-head"><h3>Tomato & Onion Pizza</h3><span class="price">₹99</span></div>
+                <p>Fresh tomatoes & onions, loaded cheese, crispy crust.</p>
               </article>
               <article class="menu-item">
-                <div class="menu-item-head"><h3>Gluten-Free Muffin</h3><span class="price">$4.75</span></div>
-                <p>Carrot spice or lemon poppy (daily).</p>
+                <div class="menu-item-head"><h3>Corn & Onion Pizza</h3><span class="price">₹109</span></div>
+                <p>Sweet corn & onions with melting cheese.</p>
+              </article>
+              <article class="menu-item">
+                <div class="menu-item-head"><h3>Paneer Onion Pizza</h3><span class="price">₹139</span></div>
+                <p>Fresh paneer & juicy onions, rich cheesy flavor.</p>
+              </article>
+              <article class="menu-item">
+                <div class="menu-item-head"><h3>Veg Extravaganza Pizza</h3><span class="price">₹149</span></div>
+                <p>Loaded with fresh veggies & extra cheese.</p>
+              </article>
+            </div>
+            <p class="menu-addon">Turn any pizza into cheese burst @ ₹39</p>
+          </div>
+
+          <div class="menu-panel" id="rolls" role="tabpanel" hidden>
+            <div class="menu-grid">
+              <article class="menu-item">
+                <div class="menu-item-head"><h3>Atomic Potato Shots Roll</h3><span class="price">₹59</span></div>
+              </article>
+              <article class="menu-item">
+                <div class="menu-item-head"><h3>Cheese Burst Potato Shots Roll</h3><span class="price">₹79</span></div>
+              </article>
+              <article class="menu-item">
+                <div class="menu-item-head"><h3>Smoky Paneer Roll</h3><span class="price">₹79</span></div>
+              </article>
+              <article class="menu-item">
+                <div class="menu-item-head"><h3>Cheese Burst Smoky Paneer Roll</h3><span class="price">₹99</span></div>
+              </article>
+              <article class="menu-item">
+                <div class="menu-item-head"><h3>Loaded [2X] Paneer Roll</h3><span class="price">₹99</span></div>
+              </article>
+            </div>
+          </div>
+
+          <div class="menu-panel" id="beverages" role="tabpanel" hidden>
+            <div class="menu-grid">
+              <article class="menu-item">
+                <div class="menu-item-head"><h3>Virgin Mojito</h3><span class="price">₹49</span></div>
+              </article>
+              <article class="menu-item">
+                <div class="menu-item-head"><h3>Signature Cold Coffee</h3><span class="price">₹69</span></div>
+              </article>
+              <article class="menu-item">
+                <div class="menu-item-head"><h3>Cold Coffee Frappe</h3><span class="price">₹79</span></div>
+              </article>
+              <article class="menu-item">
+                <div class="menu-item-head"><h3>Oreo Shake</h3><span class="price">₹89</span></div>
+              </article>
+              <article class="menu-item">
+                <div class="menu-item-head"><h3>Chocolate Shake</h3><span class="price">₹89</span></div>
+              </article>
+              <article class="menu-item">
+                <div class="menu-item-head"><h3>KitKat Shake</h3><span class="price">₹89</span></div>
+              </article>
+            </div>
+          </div>
+
+          <div class="menu-panel" id="combos" role="tabpanel" hidden>
+            <div class="menu-grid">
+              <article class="menu-item menu-item--combo">
+                <div class="menu-item-head"><h3>Burger Bliss Combo</h3><span class="price">₹109</span></div>
+                <p>Veg Burger + Fries + Coke</p>
+              </article>
+              <article class="menu-item menu-item--combo">
+                <div class="menu-item-head"><h3>Smart Munch Pack</h3><span class="price">₹119</span></div>
+                <p>Sandwich + Fries + Coke</p>
+              </article>
+              <article class="menu-item menu-item--combo">
+                <div class="menu-item-head"><h3>The BFF Combo</h3><span class="price">₹269</span></div>
+                <p>2 Burgers + 2 Fries + 2 Mojitos</p>
+              </article>
+              <article class="menu-item menu-item--combo">
+                <div class="menu-item-head"><h3>Super Saver Family Combo</h3><span class="price">₹329</span></div>
+                <p>1 Sandwich + 2 Burgers + 2 Fries + 2 Mojitos</p>
+              </article>
+              <article class="menu-item menu-item--combo">
+                <div class="menu-item-head"><h3>Pizza Mania Combo</h3><span class="price">₹219</span></div>
+                <p>2 Pizza + 1 Coke</p>
               </article>
             </div>
           </div>
@@ -187,7 +341,7 @@
         <div class="section-header section-header--light">
           <span class="section-label">Inside the Nook</span>
           <h2>Moments & flavors</h2>
-          <p>Fresh pours, warm plates, and everyday sukoon — scroll through our nook.</p>
+          <p>Burgers, fries, sandwiches & combos — straight from The Nook kitchen.</p>
         </div>
       </div>
       <div class="gallery-marquee" aria-label="Cafe photo gallery" role="region">
@@ -205,14 +359,12 @@
             <p class="address-line">H No.37, Raj Tower</p>
             <p class="address-line">Ratan Lal Nagar, Kanpur</p>
             <p class="address-line">Pincode 208022</p>
-            <p class="address-line"><a href="tel:+15551234567">(555) 123-4567</a></p>
+            <p class="address-line"><a href="tel:+919682414350">9682414350</a></p>
           </address>
           <dl class="hours-list">
-            <div><dt>Monday – Friday</dt><dd>10:00 AM – 10:30 PM</dd></div>
-            <div><dt>Saturday</dt><dd>10:00 AM – 10:30 PM</dd></div>
-            <div><dt>Sunday</dt><dd>10:00 AM – 10:30 PM</dd></div>
+            <div><dt>Monday – Sunday</dt><dd>10:00 AM – 10:00 PM</dd></div>
           </dl>
-          <p class="hours-note">Kitchen closes 30 minutes before closing. Holiday hours posted on Instagram.</p>
+          <p class="hours-note">Book for birthday & kitty parties — call <a href="tel:+919682414350">9682414350</a></p>
         </div>
         <div class="hours-map">
           <div class="map-placeholder">
@@ -227,43 +379,51 @@
     <section class="contact" id="contact">
       <div class="container contact-grid">
         <div class="contact-intro">
-          <span class="section-label">Reservations</span>
-          <h2>Save your spot</h2>
-          <p>Weekend brunch fills fast. Parties of 6+ please call ahead. Walk-ins always welcome at the bar.</p>
+          <span class="section-label">Party booking</span>
+          <h2>Birthday & kitty parties</h2>
+          <p>Thank you for choosing The Nook. Book your celebration with us — we'll help make it memorable.</p>
+          <p class="contact-phone"><a href="tel:+919682414350">Call 9682414350</a></p>
         </div>
         <form class="contact-form" action="#" method="post">
           <div class="form-row">
             <label for="name">Name</label>
-            <input type="text" id="name" name="name" required placeholder="Jane Doe">
+            <input type="text" id="name" name="name" required placeholder="Your name">
           </div>
           <div class="form-row">
-            <label for="email">Email</label>
-            <input type="email" id="email" name="email" required placeholder="you@email.com">
+            <label for="phone">Phone</label>
+            <input type="tel" id="phone" name="phone" required placeholder="10-digit mobile">
           </div>
           <div class="form-row form-row--half">
             <div>
-              <label for="date">Date</label>
+              <label for="date">Event date</label>
               <input type="date" id="date" name="date" required>
             </div>
             <div>
               <label for="guests">Guests</label>
               <select id="guests" name="guests" required>
                 <option value="">Select</option>
-                <option value="1">1</option>
-                <option value="2">2</option>
-                <option value="3">3</option>
-                <option value="4">4</option>
-                <option value="5">5</option>
-                <option value="6+">6+</option>
+                <option value="5-10">5 – 10</option>
+                <option value="10-20">10 – 20</option>
+                <option value="20-30">20 – 30</option>
+                <option value="30+">30+</option>
               </select>
             </div>
           </div>
           <div class="form-row">
-            <label for="message">Notes (optional)</label>
-            <textarea id="message" name="message" rows="3" placeholder="High chair, window seat, celebration..."></textarea>
+            <label for="event-type">Event type</label>
+            <select id="event-type" name="event-type" required>
+              <option value="">Select</option>
+              <option value="birthday">Birthday party</option>
+              <option value="kitty">Kitty party</option>
+              <option value="other">Other celebration</option>
+            </select>
           </div>
-          <button type="submit" class="btn btn-primary btn-full">Request Reservation</button>
-          <p class="form-note">This is a demo form. Connect to your booking system or email service for production use.</p>
+          <div class="form-row">
+            <label for="message">Notes (optional)</label>
+            <textarea id="message" name="message" rows="3" placeholder="Cake, decor, menu preferences..."></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary btn-full">Request Booking</button>
+          <p class="form-note">We'll call you back to confirm. For quick orders, call <a href="tel:+919682414350">9682414350</a>.</p>
         </form>
       </div>
     </section>
@@ -272,7 +432,14 @@
   <footer class="site-footer">
     <div class="container footer-grid">
       <div class="footer-brand">
-        <a href="#top" class="logo">The Nook <span>Cafe</span></a>
+        <a href="#top" class="logo logo--footer">
+          <img src="images/TheNookLogo.png" alt="" class="logo-img" width="72" height="72">
+          <span class="logo-text">
+            <span class="logo-tag">A tasteful corner</span>
+            <span class="logo-main">The Nook</span>
+            <span class="logo-sub">Tasty Trails Cafe · Kanpur</span>
+          </span>
+        </a>
         <p>Sukoon ka asli address. See you tomorrow.</p>
       </div>
       <div class="footer-links">
@@ -281,20 +448,28 @@
           <li><a href="#about">About</a></li>
           <li><a href="#menu">Menu</a></li>
           <li><a href="#gallery">Gallery</a></li>
-          <li><a href="#contact">Reservations</a></li>
+          <li><a href="#contact">Book Party</a></li>
         </ul>
       </div>
       <div class="footer-social">
         <h4>Follow</h4>
         <ul>
-          <li><a href="#" aria-label="Instagram">Instagram</a></li>
+          <li><a href="https://www.instagram.com/thenookkanpur/" target="_blank" rel="noopener noreferrer" aria-label="Instagram">Instagram</a></li>
           <li><a href="#" aria-label="Facebook">Facebook</a></li>
           <li><a href="#" aria-label="Twitter">Twitter</a></li>
         </ul>
       </div>
     </div>
     <div class="footer-bottom">
-      <p>&copy; <span id="year"></span> The Nook Cafe. All rights reserved.</p>
+      <p class="footer-copy">
+        <span class="footer-copy-line">
+          &copy; <span id="year"></span>
+          <strong>The Nook</strong>
+          <span class="footer-copy-dot">·</span>
+          <em>A tasteful corner</em>
+        </span>
+        <span class="footer-copy-line footer-copy-sub">Tasty Trails Cafe · Kanpur</span>
+      </p>
     </div>
   </footer>
 
